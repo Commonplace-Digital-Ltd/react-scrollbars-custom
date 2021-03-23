@@ -1,23 +1,23 @@
 {
-  "name": "react-scrollbars-custom",
-  "description": "The best React custom scrollbars component",
-  "version": "4.0.25",
+  "name": "simple-rs-custom",
+  "description": "The best React custom scrollbars component, with peer dependency updated",
+  "version": "4.0.26",
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/xobotyi"
+    "type": "cwwiebbelling",
+    "url": "https://github.com/CarlosWiebbelling"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xobotyi/react-scrollbars-custom.git"
+    "url": "https://github.com/CarlosWiebbelling/react-scrollbars-custom"
   },
   "bugs": {
-    "url": "https://github.com/xobotyi/react-scrollbars-custom/issues"
+    "url": "https://github.com/CarlosWiebbelling/react-scrollbars-custom/issues"
   },
-  "homepage": "https://github.com/xobotyi/react-scrollbars-custom",
+  "homepage": "https://github.com/CarlosWiebbelling/react-scrollbars-custom",
   "author": {
-    "name": "Anton Zinovyev",
-    "url": "https://github.com/xobotyi",
-    "email": "xog3@yandex.ru"
+    "name": "Anton Zinovyev - Carlos Wiebbelling",
+    "url": "https://github.com/CarlosWiebbelling",
+    "email": "carloswiebbelling@outlook.com"
   },
   "license": "MIT",
   "keywords": [
@@ -27,7 +27,8 @@
     "scrollbar",
     "react",
     "component",
-    "custom"
+    "custom",
+    "react-17"
   ],
   "main": "dist/rsc.js",
   "module": "dist/rsc.esm.js",
@@ -38,7 +39,7 @@
   ],
   "peerDependencies": {
     "prop-types": "^15.0.0",
-    "react": "^16.0.0"
+    "react": "^17.0.1"
   },
   "dependencies": {
     "cnbuilder": "^2.5.0",
@@ -64,8 +65,8 @@
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.10.5",
     "rollup-plugin-babel": "^4.4.0",
